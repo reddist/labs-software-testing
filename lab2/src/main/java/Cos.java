@@ -8,6 +8,10 @@ import static java.lang.Math.PI;
 public class Cos {
     private Sin sinObject;
 
+    public Cos () {
+        this.sinObject = new Sin();
+    }
+
     public Cos (Sin sinObject) {
         this.sinObject = sinObject;
     }

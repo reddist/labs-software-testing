@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 import static java.lang.Math.PI;
 import static java.lang.Math.abs;
 
-import static main.java.TrigonomicFunctions.factorial;
+import static main.java.Helpers.factorial;
 
 public class Sin {
     public BigDecimal sin(double x, double eps) {
@@ -30,9 +30,9 @@ public class Sin {
             prev_result = result;
             result = BigDecimal.valueOf(x).pow(k)
                     .multiply(BigDecimal.valueOf(
-                            new BigFraction(1)
-                                    .divide(factorial(k))
-                                    .doubleValue()
+                        new BigFraction(1)
+                            .divide(factorial(k))
+                            .doubleValue()
                     ))
                     .multiply(BigDecimal.valueOf(-1).pow((k - 1) / 2))
                     .add(result);

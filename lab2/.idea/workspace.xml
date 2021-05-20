@@ -2,25 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5683083c-2e3a-4dd2-8de4-bd4025712ea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/byte_buddy_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/byte_buddy_agent_1_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core_3_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-agent-1.11.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mockito-core-3.10.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/objenesis-3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FunctionSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Logarithms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NaturalLogarithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logarithmic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trigonometric.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestCos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogarithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogarithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FunctionSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunctionSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Logarithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logarithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NaturalLogarithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NaturalLogarithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TrigonomicFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TrigonometricFunctions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +28,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1sFJQ3RKi0nR2TR9RDMBRpbuAFY" />
@@ -47,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16781609" />
@@ -55,8 +61,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test.java" />
@@ -66,74 +72,77 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestLogarithms">
+  <component name="RunManager" selected="JUnit.TestSystem.test_trig_1">
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSystem.test_trig_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab2" />
       <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestCos" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLogarithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab2" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestLogarithms" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLogarithms.check_ln_critical_points" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab2" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestLogarithms" />
-      <option name="METHOD_NAME" value="check_ln_critical_points" />
+      <option name="MAIN_CLASS_NAME" value="test.java.TestSystem" />
+      <option name="METHOD_NAME" value="test_trig_1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogarithms.check_log_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSystem.test_trig_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab2" />
       <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestLogarithms" />
-      <option name="METHOD_NAME" value="check_log_2" />
+      <option name="MAIN_CLASS_NAME" value="test.java.TestSystem" />
+      <option name="METHOD_NAME" value="test_trig_2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSystem.test_trig_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab2" />
       <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestSin" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="test.java.TestSystem" />
+      <option name="METHOD_NAME" value="test_trig_3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSystem.test_trig_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.TestSystem" />
+      <option name="METHOD_NAME" value="test_trig_4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSystem.test_trig_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.TestSystem" />
+      <option name="METHOD_NAME" value="test_trig_5" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestLogarithms" />
-      <item itemvalue="JUnit.TestSin" />
-      <item itemvalue="JUnit.TestCos" />
-      <item itemvalue="JUnit.TestLogarithms.check_ln_critical_points" />
-      <item itemvalue="JUnit.TestLogarithms.check_log_2" />
+      <item itemvalue="JUnit.TestSystem.test_trig_4" />
+      <item itemvalue="JUnit.TestSystem.test_trig_3" />
+      <item itemvalue="JUnit.TestSystem.test_trig_5" />
+      <item itemvalue="JUnit.TestSystem.test_trig_2" />
+      <item itemvalue="JUnit.TestSystem.test_trig_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestLogarithms" />
-        <item itemvalue="JUnit.TestLogarithms.check_log_2" />
-        <item itemvalue="JUnit.TestSin" />
-        <item itemvalue="JUnit.TestCos" />
-        <item itemvalue="JUnit.TestLogarithms.check_ln_critical_points" />
+        <item itemvalue="JUnit.TestSystem.test_trig_1" />
+        <item itemvalue="JUnit.TestSystem.test_trig_2" />
+        <item itemvalue="JUnit.TestSystem.test_trig_5" />
+        <item itemvalue="JUnit.TestSystem.test_trig_3" />
+        <item itemvalue="JUnit.TestSystem.test_trig_4" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620462384668</updated>
       <workItem from="1620462389241" duration="20211000" />
-      <workItem from="1621454985523" duration="6355000" />
+      <workItem from="1621454985523" duration="24594000" />
     </task>
     <task id="LOCAL-00001" summary="completed basic functions with tests - sin(x), cos(x), ln(x), log(a, b)">
       <created>1620478270622</created>
@@ -154,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620478270622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Раскидал функции по классам, добавил Mockita в проект, дописал мокирование в тестах.">
+      <created>1621471986630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621471986630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,13 +178,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed basic functions with tests - sin(x), cos(x), ln(x), log(a, b)" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed basic functions with tests - sin(x), cos(x), ln(x), log(a, b)" />
+    <MESSAGE value="Раскидал функции по классам, добавил Mockita в проект, дописал мокирование в тестах." />
+    <option name="LAST_COMMIT_MESSAGE" value="Раскидал функции по классам, добавил Mockita в проект, дописал мокирование в тестах." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620471116431">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621499679278">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1620471116431" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1621499679278" />
     <state x="167" y="125" width="1653" height="855" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1620474097567">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -177,38 +194,46 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1065" y="191" width="772" height="723" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1620464453034" />
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1621473671175">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="801" y="271" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1621473671175" />
+    <state x="725" y="338" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1621473007723">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="725" y="338" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1621473007723" />
     <state x="1209" y="460" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1620464770723">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1209" y="460" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/67.27.1853.1053@67.27.1853.1053" timestamp="1620464770723" />
-    <state x="411" y="96" width="1155" height="912" key="CommitChangelistDialog2" timestamp="1620478270463">
+    <state x="411" y="96" width="1155" height="912" key="CommitChangelistDialog2" timestamp="1621471986241">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="411" y="96" width="1155" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1620478270463" />
-    <state width="1807" height="335" key="GridCell.Tab.0.bottom" timestamp="1621466271595">
+    <state x="411" y="96" width="1155" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1621471986241" />
+    <state width="1807" height="242" key="GridCell.Tab.0.bottom" timestamp="1621514428817">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="335" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1621466271595" />
-    <state width="1807" height="335" key="GridCell.Tab.0.center" timestamp="1621466271595">
+    <state width="1807" height="242" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1621514428817" />
+    <state width="1807" height="242" key="GridCell.Tab.0.center" timestamp="1621514428816">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="335" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1621466271595" />
-    <state width="1807" height="335" key="GridCell.Tab.0.left" timestamp="1621466271595">
+    <state width="1807" height="242" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1621514428816" />
+    <state width="1807" height="242" key="GridCell.Tab.0.left" timestamp="1621514428816">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="335" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1621466271595" />
-    <state width="1807" height="335" key="GridCell.Tab.0.right" timestamp="1621466271595">
+    <state width="1807" height="242" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1621514428816" />
+    <state width="1807" height="242" key="GridCell.Tab.0.right" timestamp="1621514428817">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="335" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1621466271595" />
-    <state x="482" y="187" width="1024" height="845" key="SettingsEditor" timestamp="1621464367857">
+    <state width="1807" height="242" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1621514428817" />
+    <state x="482" y="187" width="1024" height="845" key="SettingsEditor" timestamp="1621513139413">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1621464367857" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1620478277859">
+    <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1621513139413" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1621472009946">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1620478277859" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1621472009946" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1621454986179">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -217,13 +242,17 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="647" y="149" width="683" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1621465120682" />
-    <state x="1101" y="264" width="710" height="576" key="find.popup" timestamp="1620464727301">
+    <state x="1101" y="264" width="710" height="578" key="find.popup" timestamp="1621473504219">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1101" y="264" width="710" height="576" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1620464727301" />
-    <state x="657" y="253" width="672" height="677" key="run.anything.popup" timestamp="1620477588460">
+    <state x="1101" y="264" width="710" height="578" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1621473504219" />
+    <state x="657" y="253" width="672" height="677" key="run.anything.popup" timestamp="1621513604419">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="657" y="253" width="672" height="677" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1620477588460" />
+    <state x="657" y="253" width="672" height="677" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1621513604419" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1621500800234">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1621500800234" />
   </component>
 </project>

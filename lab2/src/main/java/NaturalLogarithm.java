@@ -29,9 +29,9 @@ public class NaturalLogarithm {
         for (int k = 2; result.subtract(prev_result).abs().compareTo(BigDecimal.valueOf(eps)) > 0 && k < 900; k++) {
             prev_result = result;
             result = result.add(
-                    powered_x_minus_1
-                        .divide(new BigDecimal(k), RoundingMode.HALF_UP)
-                        .multiply(BigDecimal.valueOf(k % 2 == 0 ? -1.0D : 1.0D))
+                powered_x_minus_1
+                    .divide(new BigDecimal(k), RoundingMode.HALF_UP)
+                    .multiply(BigDecimal.valueOf(k % 2 == 0 ? -1.0D : 1.0D))
             );
             powered_x_minus_1 = powered_x_minus_1.multiply(x_minus_1);
             numb = k;
