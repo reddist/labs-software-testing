@@ -2,6 +2,7 @@ package test.java;
 
 import main.java.Logarithms;
 import main.java.NaturalLogarithm;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.math.BigDecimal;
@@ -13,10 +14,18 @@ import static org.junit.Assert.*;
 public class TestLogarithms {
     double eps = 0.0001;
 
+    NaturalLogarithm naturalLn;
+    Logarithms log_a_b;
+
+    @Before
+    public void init () {
+        naturalLn = new NaturalLogarithm();
+        log_a_b = new Logarithms(naturalLn);
+    }
+
     @Test
     public void check_log_2 () {
         System.out.println("Check log 2...");
-        Logarithms log_a_b = new Logarithms(new NaturalLogarithm());
         int number = 1;
         for (int i = 1; i < 15; i++) {
             number *= 2;
@@ -40,7 +49,6 @@ public class TestLogarithms {
     @Test
     public void check_ln_critical_points () {
         System.out.println("Check ln in critical points...");
-        NaturalLogarithm naturalLn = new NaturalLogarithm();
         double[] params = {1, 0, Math.E, -2};
         for (double param : params) {
             System.out.print(param);
@@ -53,7 +61,6 @@ public class TestLogarithms {
     @Test
     public void check_ln () {
         System.out.println("Check ln...");
-        NaturalLogarithm naturalLn = new NaturalLogarithm();
         double[] params = {125, 10000, Math.E, 2.28623, 5.22221, 0.234, 0.015, 0.78402, 0.56736, Math.E * Math.E};
         for (double param : params) {
             System.out.print(param);

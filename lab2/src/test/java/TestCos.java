@@ -5,6 +5,8 @@ import main.java.Sin;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.ArgumentCaptor;
+import org.mockito.Mockito;
 
 import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;

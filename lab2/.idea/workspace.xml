@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5683083c-2e3a-4dd2-8de4-bd4025712ea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logarithmic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Helpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trigonometric.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IntegrationTestCos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IntegrationTestLogarithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/IntegrationTestSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FunctionSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FunctionSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Logarithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logarithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NaturalLogarithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NaturalLogarithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TrigonomicFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TrigonometricFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestCos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestCos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLogarithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestLogarithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +67,36 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSystem.test_trig_1">
+  <component name="RunManager" selected="JUnit.test.java in lab2">
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTestCos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.IntegrationTestCos" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTestLogarithms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.IntegrationTestLogarithms" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTestSystem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab2" />
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.IntegrationTestSystem" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,60 +111,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSystem.test_trig_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.java in lab2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab2" />
       <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestSystem" />
-      <option name="METHOD_NAME" value="test_trig_2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSystem.test_trig_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab2" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestSystem" />
-      <option name="METHOD_NAME" value="test_trig_3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSystem.test_trig_4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab2" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestSystem" />
-      <option name="METHOD_NAME" value="test_trig_4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSystem.test_trig_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab2" />
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.TestSystem" />
-      <option name="METHOD_NAME" value="test_trig_5" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestSystem.test_trig_4" />
-      <item itemvalue="JUnit.TestSystem.test_trig_3" />
-      <item itemvalue="JUnit.TestSystem.test_trig_5" />
-      <item itemvalue="JUnit.TestSystem.test_trig_2" />
       <item itemvalue="JUnit.TestSystem.test_trig_1" />
+      <item itemvalue="JUnit.IntegrationTestCos" />
+      <item itemvalue="JUnit.IntegrationTestLogarithms" />
+      <item itemvalue="JUnit.IntegrationTestSystem" />
+      <item itemvalue="JUnit.test.java in lab2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test.java in lab2" />
+        <item itemvalue="JUnit.IntegrationTestSystem" />
+        <item itemvalue="JUnit.IntegrationTestLogarithms" />
+        <item itemvalue="JUnit.IntegrationTestCos" />
         <item itemvalue="JUnit.TestSystem.test_trig_1" />
-        <item itemvalue="JUnit.TestSystem.test_trig_2" />
-        <item itemvalue="JUnit.TestSystem.test_trig_5" />
-        <item itemvalue="JUnit.TestSystem.test_trig_3" />
-        <item itemvalue="JUnit.TestSystem.test_trig_4" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +144,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620462384668</updated>
       <workItem from="1620462389241" duration="20211000" />
-      <workItem from="1621454985523" duration="24594000" />
+      <workItem from="1621454985523" duration="27947000" />
     </task>
     <task id="LOCAL-00001" summary="completed basic functions with tests - sin(x), cos(x), ln(x), log(a, b)">
       <created>1620478270622</created>
@@ -170,16 +160,35 @@
       <option name="project" value="LOCAL" />
       <updated>1621471986630</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Покрыл тестами всю систему, поправил реализацию где нужно.">
+      <created>1621514558217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621514558217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed basic functions with tests - sin(x), cos(x), ln(x), log(a, b)" />
     <MESSAGE value="Раскидал функции по классам, добавил Mockita в проект, дописал мокирование в тестах." />
-    <option name="LAST_COMMIT_MESSAGE" value="Раскидал функции по классам, добавил Mockita в проект, дописал мокирование в тестах." />
+    <MESSAGE value="Покрыл тестами всю систему, поправил реализацию где нужно." />
+    <option name="LAST_COMMIT_MESSAGE" value="Покрыл тестами всю систему, поправил реализацию где нужно." />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621499679278">
@@ -206,30 +215,30 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1209" y="460" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/67.27.1853.1053@67.27.1853.1053" timestamp="1620464770723" />
-    <state x="411" y="96" width="1155" height="912" key="CommitChangelistDialog2" timestamp="1621471986241">
+    <state x="411" y="96" width="1155" height="912" key="CommitChangelistDialog2" timestamp="1621514558090">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="411" y="96" width="1155" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1621471986241" />
-    <state width="1807" height="242" key="GridCell.Tab.0.bottom" timestamp="1621514428817">
+    <state x="411" y="96" width="1155" height="912" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1621514558090" />
+    <state width="1807" height="242" key="GridCell.Tab.0.bottom" timestamp="1621517957542">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="242" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1621514428817" />
-    <state width="1807" height="242" key="GridCell.Tab.0.center" timestamp="1621514428816">
+    <state width="1807" height="242" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1621517957542" />
+    <state width="1807" height="242" key="GridCell.Tab.0.center" timestamp="1621517957541">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="242" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1621514428816" />
-    <state width="1807" height="242" key="GridCell.Tab.0.left" timestamp="1621514428816">
+    <state width="1807" height="242" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1621517957541" />
+    <state width="1807" height="242" key="GridCell.Tab.0.left" timestamp="1621517957540">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="242" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1621514428816" />
-    <state width="1807" height="242" key="GridCell.Tab.0.right" timestamp="1621514428817">
+    <state width="1807" height="242" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1621517957540" />
+    <state width="1807" height="242" key="GridCell.Tab.0.right" timestamp="1621517957541">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="242" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1621514428817" />
-    <state x="482" y="187" width="1024" height="845" key="SettingsEditor" timestamp="1621513139413">
+    <state width="1807" height="242" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1621517957541" />
+    <state x="482" y="187" width="1024" height="845" key="SettingsEditor" timestamp="1621515274914">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1621513139413" />
+    <state x="482" y="187" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1621515274914" />
     <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1621472009946">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -242,10 +251,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="647" y="149" width="683" height="806" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1621465120682" />
-    <state x="1101" y="264" width="710" height="578" key="find.popup" timestamp="1621473504219">
+    <state x="1051" y="264" width="869" height="646" key="find.popup" timestamp="1621516618025">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1101" y="264" width="710" height="578" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1621473504219" />
+    <state x="1051" y="264" width="869" height="646" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1621516618025" />
     <state x="657" y="253" width="672" height="677" key="run.anything.popup" timestamp="1621513604419">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
